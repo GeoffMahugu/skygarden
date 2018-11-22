@@ -5,3 +5,106 @@
     font-size: 0.8em;
     text-align: right;
 }
+
+/*
+.body-container {
+    min-height: 100vh;
+}
+*/
+
+.top-banner {
+    background-image: url(../../../assets/images/banner/washing_machine.png);
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh !important;
+}
+
+.banner-text-holder {
+    padding-left: 10%;
+    padding-top: 7%;
+}
+
+.banner-text {
+    font-size: 4em;
+    font-weight: bold;
+    color: #000;
+    line-height: 90%;
+    text-align: left;
+}
+
+@media all and (max-width: 700px) {
+    .banner-text {
+        font-size: 3em !important;
+    }
+    .caption-item {
+        padding: 1px !important;
+        font-size: 0.8em;
+    }
+    .section-sub-title {
+        font-size: 0.7em !important;
+    }
+}
+
+.banner-button {
+    padding: 15px;
+    color: #00a096;
+    font-weight: bold;
+    font-size: 1em;
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-holder {
+    width: 170px;
+    border: solid 2px transparent;
+    border-radius: 2px;
+    background-image: linear-gradient(white, white), linear-gradient(to right, #00a096, #00b496, #aae650);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.top-banner-caption {
+    font-size: 14px;
+    font-weight: bold;
+    color: #231f20;
+    /*    height: 10vh;*/
+    padding: 20px;
+}
+
+.caption-item {
+    border-right: 2px solid #555;
+    text-align: center;
+}
+
+.banner-caption-image {
+    height: 35px;
+    margin-top: -10px;
+}
+
+.section-1 {
+    padding: 15px;
+    background-color: #f4f4f4;
+}
+
+.section-header {
+    margin: 0px;
+    font-size: 1.5em;
+}
+
+.section-sub-title {
+    color: #585858;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.section-1-header {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

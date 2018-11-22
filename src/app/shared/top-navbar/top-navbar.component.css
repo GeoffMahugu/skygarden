@@ -3,6 +3,11 @@
     padding: 5px;
 }
 
+.menu-icon {
+    font-size: 1.3em;
+    color: #fff;
+}
+
 .mat-toolbar-spacer {
     flex: 1 1 auto;
 }
