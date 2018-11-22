@@ -1,0 +1,30 @@
+<mat-toolbar fxFlex="fixed" class="top-navbar">
+    <mat-toolbar-row>
+        <span>
+            <a routerLink='/' style="text-decoration: none;" >
+            <img src="../../../assets/images/logo/skylogo.png" alt="SkyGarden" class="nav-logo">
+            </a>
+        </span>
+        <span class="mat-toolbar-spacer"></span>
+
+        <div class="button-row" fxHide.sm fxHide.xs>
+            <div class="top-nav-select-holder">
+                <select class="top-nav-select" placeholde="Category">
+                    <option value="" disabled selected>CATEGORIES</option>
+                </select>
+            </div>
+        </div>
+        <div class="button-row search-holder-large" fxHide.sm fxHide.xs>
+            <input matInput placeholder="Search for products, categories and shops" type="text" name="search" class="search-input-large">
+        </div>
+        <div class="button-row">
+            <button routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" mat-button> <span fxHide.sm fxHide.xs class="span-text"> Log in</span>  <img src="../../../assets/images/top-nav/top-bar-user.png" alt="log in" class="top-bar-user"></button>
+        </div>
+        <div class="button-row">
+            <button routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" mat-button><span fxHide.sm fxHide.xs class="span-text">Cart</span> <img src="../../../assets/images/top-nav/top-bar-cart.png" alt="cart" class="top-bar-cart"></button>
+        </div>
+    </mat-toolbar-row>
+    <mat-toolbar-row fxHide.lg fxHide.md>
+        <input matInput placeholder="Search" type="text" name="search" class="search-input">
+    </mat-toolbar-row>
+</mat-toolbar>

@@ -1,0 +1,72 @@
+.top-navbar {
+    background-color: #1e1e1e;
+    padding: 5px;
+}
+
+.mat-toolbar-spacer {
+    flex: 1 1 auto;
+}
+
+.nav-logo {
+    height: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.span-text {
+    padding-right: 10px;
+}
+
+.search-holder-large {
+    width: 50%;
+    margin-right: 5%;
+}
+
+.top-nav-select-holder {
+    margin-right: 10px;
+    border: solid 1px transparent;
+    border-radius: 2px;
+    background-image: linear-gradient(white, white), linear-gradient(to right, #00a096, #00b496, #aae650);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.top-nav-select {
+    background-color: #231f20;
+    color: #f4f4f4;
+    padding: 10px;
+    font-weight: bold;
+    border: 0px;
+}
+
+.button-row {
+    color: #f4f4f4;
+}
+
+.top-bar-cart,
+.top-bar-user {
+    height: 25px;
+}
+
+.search-input-large {
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    border: 0px;
+}
+
+.search-input {
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: 0px;
+    background-image: url(../../../assets/images/top-nav/search.svg);
+    background-repeat: no-repeat;
+    background-position: 2px 3px;
+
+}
+
+
+.body-container {
+    min-height: 100vh;
+}

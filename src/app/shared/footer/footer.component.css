@@ -1,0 +1,18 @@
+.footer {
+    background-color: #231f20;
+    padding: 70px;
+}
+
+.h1-headers {
+    font-size: 1em;
+    color: #f4f4f4;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.h3-text {
+    color: #999;
+    font-weight: lighter;
+    margin: 5px;
+    font-size: 1em;
+}
