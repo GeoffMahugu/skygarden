@@ -82,7 +82,8 @@
 
 .section-1 {
     background-color: #f4f4f4;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
+    padding-top: 20px;
 }
 
 .section-header {
@@ -118,11 +119,12 @@
 }
 
 .category-sub-header {
-    color: #949191;
+    color: #292828;
     font-size: 0.9em;
 }
 
-.section-2 {
+.section-2,
+.section-4 {
     padding: 80px 15px 80px 15px;
     background-color: #fff;
 }
@@ -158,6 +160,16 @@
     text-decoration: line-through;
 }
 
+.deal-link-container {
+    text-align: center;
+    padding: 5px
+}
+
+.deal-link {
+    color: #292828;
+    font-weight: bold;
+}
+
 .deals-scroll-left,
 .deals-scroll-right {
     width: 70px;
@@ -176,4 +188,14 @@
 
 .deals-scroll-right {
     margin-left: -70px;
+}
+
+.section-4-about {
+    padding: 30px;
+}
+
+.section-4-sub-title {
+    font-size: 1em;
+    margin: 0px;
+    padding-bottom: 40px;
 }

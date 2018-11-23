@@ -105,6 +105,9 @@
                             <div fxFlex="100" class="deal-price-holder">
                                 <span class="deal-new-price">{{deal.new_price}}</span><span class="deal-old-price">{{deal.old_price}}</span>
                             </div>
+                            <div fxFlex="100" class="deal-link-container">
+                                <a routerLink="/" class="deal-link">Add to cart</a>
+                            </div>
 
                         </div>
                     </div>
@@ -117,5 +120,55 @@
             </div>
         </div>
     </div>
-    <app-footer></app-footer>
+    <div fxFlex="100" class="section-4">
+        <div fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="flex-start" fxLayoutWrap>
+            <div fxFlex='50' fxFlex.lt-sm="100%" class="section-4-about">
+                <div fxLayout="column" fxLayoutAlign="flex-start" fxLayoutWrap>
+                    <div fxFlex="100">
+                        <h1>Sky.Garden makes it easy to buy from retailers all over Kenya.</h1>
+                    </div>
+                    <div fxFlex="100">
+                        <h6 class="section-4-sub-title"> We are much more than just a marketplace.</h6>
+                    </div>
+                    <div fxFlex='100'>
+                        <div class="btn-holder">
+                            <button class="banner-button">About Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div fxFlex='50' fxFlex.lt-sm="100%">
+                <img src="../../../assets/images/section_4/section_4.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div fxFlex="100" class="section-1">
+        <div fxLayout="row" fxLayoutAlign="flex-start" fxLayoutWrap>
+            <div fxFlex="100" class="section-1-header">
+                <h1 class="section-header">Sellers of the month</h1>
+                <small class="section-sub-title">Every Sky.Garden seller is awesome, but these have shown just how much this month!</small>
+            </div>
+        </div>
+
+        <div fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="30px" fxLayoutAlign=”flex-start” class="deals-container">
+
+        </div>
+
+        <div fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="center" fxLayoutWrap>
+            <div fxFlex="40" fxFlex.lt-sm="100%" class="section-2-item">
+                <img src="../../../assets/images/section_5/curious.png" alt="birthday">
+            </div>
+            <div fxFlex="5" fxHide.sm fxHide.xs>&nbsp;</div>
+            <div fxFlex="40" fxFlex.lt-sm="100%" class="section-2-item">
+                <img src="../../../assets/images/section_5/ready.png" alt="vacation">
+            </div>
+            <div fxFlex="5" fxHide.sm fxHide.xs>&nbsp;</div>
+        </div>
+
+
+
+    </div>
+
 </div>
+<app-footer></app-footer>
