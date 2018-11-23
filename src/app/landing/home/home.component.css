@@ -6,12 +6,6 @@
     text-align: right;
 }
 
-/*
-.body-container {
-    min-height: 100vh;
-}
-*/
-
 .top-banner {
     background-image: url(../../../assets/images/banner/washing_machine.png);
     background-position: center;
@@ -24,8 +18,7 @@
 }
 
 .banner-text-holder {
-    padding-left: 10%;
-    padding-top: 7%;
+    padding: 7% 0px 0px 10%;
 }
 
 .banner-text {
@@ -64,7 +57,8 @@
     width: 170px;
     border: solid 2px transparent;
     border-radius: 2px;
-    background-image: linear-gradient(white, white), linear-gradient(to right, #00a096, #00b496, #aae650);
+    background-image: linear-gradient(white, white),
+    linear-gradient(to right, #00a096, #00b496, #aae650);
     background-origin: border-box;
     background-clip: content-box, border-box;
 }
@@ -73,7 +67,6 @@
     font-size: 14px;
     font-weight: bold;
     color: #231f20;
-    /*    height: 10vh;*/
     padding: 20px;
 }
 
@@ -88,8 +81,8 @@
 }
 
 .section-1 {
-    padding: 15px;
     background-color: #f4f4f4;
+    padding-bottom: 50px;
 }
 
 .section-header {
@@ -105,12 +98,31 @@
 
 .section-1-header {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 30px 15px 30px 15px;
 }
 
 .category-item {
     background-color: #fff;
-    width: 80%;
-    align-items: center;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.category-header {
+    margin: 0px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.category-item-footer {
+    padding: 10px;
+}
+
+.category-sub-header {
+    color: #2b2b2b;
+    font-size: 0.9em;
+}
+
+.section-2 {
+    padding: 80px 15px 80px 15px;
+    background-color: #fff;
 }
