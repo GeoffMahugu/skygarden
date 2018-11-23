@@ -118,11 +118,62 @@
 }
 
 .category-sub-header {
-    color: #2b2b2b;
+    color: #949191;
     font-size: 0.9em;
 }
 
 .section-2 {
     padding: 80px 15px 80px 15px;
     background-color: #fff;
+}
+
+.deals-container {
+    padding: 10px;
+}
+
+.deal-item {
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.deal-title {
+    margin: 0px;
+    font-size: 1em;
+    text-align: left;
+}
+
+.deal-price-holder {
+    padding: 10px 0px 10px 0px;
+}
+
+.deal-new-price {
+    color: #55d187;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.deal-old-price {
+    color: #949191;
+    font-size: 0.9em;
+    text-decoration: line-through;
+}
+
+.deals-scroll-left,
+.deals-scroll-right {
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    background-color: #fff;
+    margin-top: 140px;
+    color: #00a096;
+    font-size: 3em;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.09);
+}
+
+.deals-scroll-left {
+    margin-left: 25px;
+}
+
+.deals-scroll-right {
+    margin-left: -70px;
 }

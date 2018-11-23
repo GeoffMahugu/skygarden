@@ -6,7 +6,8 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./home.component.css"]
 })
 export class HomeComponent implements OnInit {
-  public categories: [];
+  public categories: any;
+  public deals: any;
   constructor() {}
 
   ngOnInit() {
@@ -41,6 +42,37 @@ export class HomeComponent implements OnInit {
         "sub_title": "Toys and Clothes",
         'image': "../../../assets/images/categories/kids.png"
       }
+    ];
+      
+    this.deals = [
+        {
+        'name': "Gold necklace with a package",
+        "sub_title": "Veranda Green",
+        "new_price": "216 KSH",
+        "old_price": "296 KSH",
+        'image': "../../../assets/images/section_3/gold.png"
+        },
+        {
+        'name': "Gold necklace",
+        "sub_title": "Veranda Green",
+        "new_price": "216 KSH",
+        "old_price": "296 KSH",
+        'image': "../../../assets/images/section_3/gold_1.png"
+        },
+        {
+        'name': "Gold necklace",
+        "sub_title": "Veranda Green",
+        "new_price": "216 KSH",
+        "old_price": "296 KSH",
+        'image': "../../../assets/images/section_3/gold_2.png"
+        },
+        {
+        'name': "Gold necklace",
+        "sub_title": "Veranda Green",
+        "new_price": "216 KSH",
+        "old_price": "296 KSH",
+        'image': "../../../assets/images/section_3/gold_3.png"
+        },
     ];
   }
 }

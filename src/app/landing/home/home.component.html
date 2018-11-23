@@ -78,5 +78,44 @@
             </div>
         </div>
     </div>
+
+    <div fxFlex="100" class="section-1">
+        <div fxLayout="row" fxLayoutAlign="flex-start" fxLayoutWrap>
+            <div fxFlex="100" class="section-1-header">
+                <h1 class="section-header">Deals of the day</h1>
+                <small class="section-sub-title">Limited time only. Better get it today, won't get it tomorrow</small>
+            </div>
+        </div>
+
+        <div fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="30px" fxLayoutAlign=”flex-start” class="deals-container">
+            <div fxFlex="3" fxHide.sm fxHide.xs>
+                <button mat-icon-button class="deals-scroll-left">
+                    <i class="fas fa-angle-left"></i>
+                </button>
+            </div>
+            <div fxFlex="20" fxFlex.lt-sm="100%" *ngFor="let deal of deals">
+                <div fxLayout="column" fxLayoutAlign="center" fxLayoutWrap class="category-item deal-item">
+                    <div fxFlex="100"><img src="{{deal.image}}" alt="{{deal.name}}"></div>
+                    <div fxFlex="100" class="category-item-footer">
+                        <div fxLayout="column" fxLayoutAlign="flex-start" fxLayoutWrap>
+                            <div fxFlex="100">
+                                <h3 class="deal-title">{{deal.name}}</h3>
+                                <small class="category-sub-header">{{deal.sub_title}}</small>
+                            </div>
+                            <div fxFlex="100" class="deal-price-holder">
+                                <span class="deal-new-price">{{deal.new_price}}</span><span class="deal-old-price">{{deal.old_price}}</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div fxFlex="2" fxHide.sm fxHide.xs>
+                <button mat-icon-button class="deals-scroll-right">
+                    <i class="fas fa-angle-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <app-footer></app-footer>
 </div>
-<app-footer></app-footer>
