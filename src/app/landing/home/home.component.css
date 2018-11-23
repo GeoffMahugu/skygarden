@@ -108,3 +108,9 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.category-item {
+    background-color: #fff;
+    width: 80%;
+    align-items: center;
+}
