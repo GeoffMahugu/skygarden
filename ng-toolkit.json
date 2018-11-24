@@ -1,7 +1,18 @@
 {
-  "universal": {
-    "skipInstall": false,
-    "directory": ".",
-    "project": "angular.io-example"
-  }
+    "universal": {
+        "skipInstall": false,
+        "directory": ".",
+        "project": "sky.garden"
+    },
+    "serverless": {
+        "provider": "firebase",
+        "firebaseProject": "skygarden-857d6",
+        "skipInstall": false,
+        "directory": ".",
+        "project": "sky.garden",
+        "serverless": {
+            "aws": {},
+            "gcloud": {}
+        }
+    }
 }

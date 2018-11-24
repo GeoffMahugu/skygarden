@@ -1,0 +1,32 @@
+{
+    "name": "Sky.Garden",
+    "short_name": "Sky.Garden",
+    "version": "1.0",
+    "manifest_version": 1,
+    "start_url": "index.html",
+    "display": "standalone",
+    "theme_color": "#231f20",
+    "background_color": "#F4F4F4",
+    "orientation": "portrait",
+    "icons": [{
+        "src": "assets/images/favicon/apple-icon-120x120.png",
+        "sizes": "128x128",
+        "type": "image\/png"
+  }, {
+        "src": "assets/images/favicon/apple-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image\/png"
+  }, {
+        "src": "assets/images/favicon/apple-icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image\/png"
+  }, {
+        "src": "assets/images/favicon/android-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image\/png"
+  }, {
+        "src": "assets/images/favicon/sky_logo.png",
+        "sizes": "512x512",
+        "type": "image\/png"
+  }]
+}
