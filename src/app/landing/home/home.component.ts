@@ -8,6 +8,7 @@ import { Component, OnInit } from "@angular/core";
 export class HomeComponent implements OnInit {
   public categories: any;
   public deals: any;
+  public testimonials: any;
   constructor() {}
 
   ngOnInit() {
@@ -74,5 +75,25 @@ export class HomeComponent implements OnInit {
         'image': "../../../assets/images/section_3/gold_3.png"
         },
     ];
+    this.testimonials = [
+        {
+            'rating': 5, 
+            'title':'Techies Electronics', 'caption':'Really good quality and fit perfect', 
+            'writer':'Peter',
+            'date':'17 July', 'image':'../../../assets/images/section_5/test_1.png'
+        },
+        {
+            'rating': 5,
+            'title':'Xtreme Electronics', 'caption':'Great packaging, very satisfied', 'writer':'Egle',
+            'date':'17 July', 'image':'../../../assets/images/section_5/test_2.png'
+        },
+        {
+            'rating': 5,
+            'title':"Penschar Men's wear",
+            'caption':'I received my order was just as described and perfectly on time', 'writer':'Susan',
+            'date':'17 July', 'image':'../../../assets/images/section_5/test_3.png'
+        }
+        
+    ]
   }
 }

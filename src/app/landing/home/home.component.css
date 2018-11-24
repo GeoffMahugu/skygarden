@@ -102,6 +102,10 @@
     padding: 30px 15px 30px 15px;
 }
 
+.section-1-categories {
+    padding-left: 20px;
+}
+
 .category-item {
     background-color: #fff;
     margin-bottom: 15px;
@@ -127,6 +131,14 @@
 .section-4 {
     padding: 80px 15px 80px 15px;
     background-color: #fff;
+}
+
+.section-2-item {
+    cursor: pointer;
+}
+
+.section-2-image {
+    width: 100%;
 }
 
 .deals-container {
@@ -198,4 +210,52 @@
     font-size: 1em;
     margin: 0px;
     padding-bottom: 40px;
+}
+
+.testimonials-container {
+    padding: 20px 0px 20px 0px;
+}
+
+.ratings-container {
+    padding: 10px;
+    letter-spacing: 5px;
+    font-size: 1em;
+    color: #ffd100;
+}
+
+.testimonial-title {
+    text-transform: uppercase;
+    color: #8e8d8d;
+    letter-spacing: 0.5px;
+    font-size: 1.2em;
+}
+
+.testimonial-caption {
+    font-style: italic;
+    font-size: 1.2em;
+    margin: 0px;
+}
+
+.testimonial-caption:before {
+    content: open-quote;
+}
+
+.testimonial-caption:after {
+    content: close-quote;
+}
+
+.writer-container {
+    padding: 20px 0px 20px 0
+}
+
+.testimonial-btn-holder {
+    text-align: center;
+}
+
+.testimonial-footer {
+    background-color: #fff;
+    width: 90%;
+    margin-top: -80px;
+    margin-left: 24px;
+    padding: 40px;
 }

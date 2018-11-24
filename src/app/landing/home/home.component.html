@@ -43,10 +43,10 @@
             </div>
         </div>
 
-        <div fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="15px" fxLayoutAlign=”flex-start”>
+        <div fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="30px" fxLayoutAlign=”flex-start” class="section-1-categories">
             <ng-container *ngFor="let cat of categories">
-                <div fxFlex="1" fxHide.sm fxHide.xs>&nbsp;</div>
-                <div fxFlex="0 1 calc(30% - 15px)" fxFlex.lt-sm="100%">
+                <!--                <div fxFlex="1" fxHide.sm fxHide.xs>&nbsp;</div>-->
+                <div fxFlex="0 1 30%" fxFlex.lt-sm="100%">
                     <div fxLayout="column" fxLayoutAlign="center" fxLayoutWrap class="category-item">
                         <div fxFlex="100"><img src="{{cat.image}}" alt="{{cat.name}}"></div>
                         <div fxFlex="100" class="category-item-footer">
@@ -70,11 +70,11 @@
     <div fxFlex="100" class="section-2">
         <div fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="center" fxLayoutWrap>
             <div fxFlex="48" fxFlex.lt-sm="100%" class="section-2-item">
-                <img src="../../../assets/images/section_2/birthday.png" alt="birthday">
+                <img class="section-2-image" src="../../../assets/images/section_2/birthday.png" alt="birthday">
             </div>
             <div fxFlex="4" fxHide.sm fxHide.xs>&nbsp;</div>
             <div fxFlex="48" fxFlex.lt-sm="100%" class="section-2-item">
-                <img src="../../../assets/images/section_2/for_vacation.png" alt="vacation">
+                <img class="section-2-image" src="../../../assets/images/section_2/for_vacation.png" alt="vacation">
             </div>
         </div>
     </div>
@@ -138,7 +138,7 @@
                 </div>
             </div>
             <div fxFlex='50' fxFlex.lt-sm="100%">
-                <img src="../../../assets/images/section_4/section_4.png" alt="">
+                <img class="section-2-image" src="../../../assets/images/section_4/section_4.png" alt=" about us">
             </div>
         </div>
     </div>
@@ -151,17 +151,49 @@
             </div>
         </div>
 
-        <div fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="30px" fxLayoutAlign=”flex-start” class="deals-container">
-
+        <div fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="15px" fxLayoutAlign=”flex-start” class="testimonials-container">
+            <ng-container *ngFor="let item of testimonials">
+                <div fxFlex="1" fxHide.sm fxHide.xs>&nbsp;</div>
+                <div fxFlex="0 1 30%" fxFlex.lt-sm="100%">
+                    <div fxLayout="column" fxLayoutAlign="center" fxLayoutWrap class="category-item">
+                        <div fxFlex="100"><img src="{{item.image}}" alt="{{item.title}}"></div>
+                        <div fxFlex="100" class="testimonial-footer">
+                            <div fxLayout="column" fxLayoutAlign="flex-start" fxLayoutWrap>
+                                <div fxFlex="100" class="ratings-container">
+                                    <i class="fas fa-star ratings-star"></i>
+                                    <i class="fas fa-star ratings-star"></i>
+                                    <i class="fas fa-star ratings-star"></i>
+                                    <i class="fas fa-star ratings-star"></i>
+                                    <i class="fas fa-star ratings-star"></i>
+                                </div>
+                                <div fxFlex="100">
+                                    <h1 class="testimonial-title">{{item.title}}</h1>
+                                </div>
+                                <div fxFlex="100">
+                                    <h1 class="testimonial-caption">{{item.caption}}</h1>
+                                </div>
+                                <div fxFlex="100" class="writer-container">
+                                    <b>{{item.writer}} </b><span>wrote on {{item.date}}</span>
+                                </div>
+                                <div fxFlex="100" class="testimonial-btn-holder">
+                                    <div class="btn-holder">
+                                        <button class="banner-button">Visit Shop</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ng-container>
         </div>
 
         <div fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="center" fxLayoutWrap>
             <div fxFlex="40" fxFlex.lt-sm="100%" class="section-2-item">
-                <img src="../../../assets/images/section_5/curious.png" alt="birthday">
+                <img class="section-2-image" src="../../../assets/images/section_5/curious.png" alt="birthday">
             </div>
             <div fxFlex="5" fxHide.sm fxHide.xs>&nbsp;</div>
             <div fxFlex="40" fxFlex.lt-sm="100%" class="section-2-item">
-                <img src="../../../assets/images/section_5/ready.png" alt="vacation">
+                <img class="section-2-image" src="../../../assets/images/section_5/ready.png" alt="vacation">
             </div>
             <div fxFlex="5" fxHide.sm fxHide.xs>&nbsp;</div>
         </div>
