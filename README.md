@@ -1,5 +1,5 @@
 # skygarden
-This is an Angular project that implements SSR(server side rendering).
+This is an [Angular](https://angular.io) project that implements **SSR**(server side rendering).
 
 The project is being hosted on firebase at: [Demo](https://skygarden-857d6.firebaseapp.com/)
 
