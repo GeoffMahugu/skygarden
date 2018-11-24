@@ -43,12 +43,11 @@
             </div>
         </div>
 
-        <div fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="30px" fxLayoutAlign=”flex-start” class="section-1-categories">
+        <div fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="40px" fxLayoutAlign="flex-start" class="section-1-categories">
             <ng-container *ngFor="let cat of categories">
-                <!--                <div fxFlex="1" fxHide.sm fxHide.xs>&nbsp;</div>-->
                 <div fxFlex="0 1 30%" fxFlex.lt-sm="100%">
-                    <div fxLayout="column" fxLayoutAlign="center" fxLayoutWrap class="category-item">
-                        <div fxFlex="100"><img src="{{cat.image}}" alt="{{cat.name}}"></div>
+                    <div fxLayout="column" fxLayoutAlign="flex-start" fxLayoutWrap class="category-item">
+                        <div fxFlex="100"><img src="{{cat.image}}" alt="{{cat.name}}" class="category-image"></div>
                         <div fxFlex="100" class="category-item-footer">
                             <div fxLayout="row" fxLayoutAlign="flex-start" fxLayoutWrap>
                                 <div fxFlex="50">
@@ -95,7 +94,7 @@
             </div>
             <div fxFlex="20" fxFlex.lt-sm="100%" *ngFor="let deal of deals">
                 <div fxLayout="column" fxLayoutAlign="center" fxLayoutWrap class="category-item deal-item">
-                    <div fxFlex="100"><img src="{{deal.image}}" alt="{{deal.name}}"></div>
+                    <div fxFlex="100"><img src="{{deal.image}}" alt="{{deal.name}}" class="category-image"></div>
                     <div fxFlex="100" class="category-item-footer">
                         <div fxLayout="column" fxLayoutAlign="flex-start" fxLayoutWrap>
                             <div fxFlex="100">
@@ -151,12 +150,12 @@
             </div>
         </div>
 
-        <div fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="15px" fxLayoutAlign=”flex-start” class="testimonials-container">
+        <div fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="15px" fxLayoutAlign=”flex-start” class="testimonials-container ">
             <ng-container *ngFor="let item of testimonials">
                 <div fxFlex="1" fxHide.sm fxHide.xs>&nbsp;</div>
                 <div fxFlex="0 1 30%" fxFlex.lt-sm="100%">
                     <div fxLayout="column" fxLayoutAlign="center" fxLayoutWrap class="category-item">
-                        <div fxFlex="100"><img src="{{item.image}}" alt="{{item.title}}"></div>
+                        <div fxFlex="100"><img src="{{item.image}}" alt="{{item.title}}" class="category-image"></div>
                         <div fxFlex="100" class="testimonial-footer">
                             <div fxLayout="column" fxLayoutAlign="flex-start" fxLayoutWrap>
                                 <div fxFlex="100" class="ratings-container">
