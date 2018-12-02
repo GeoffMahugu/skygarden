@@ -1,52 +1,51 @@
 .footer {
-    background-color: #231f20;
-    padding-top: 70px;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-bottom: 20px;
+  background-color: #24201f;
+  padding-top: 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 20px;
 }
 
 .h1-headers {
-    font-size: 1em;
-    color: #f4f4f4;
-    font-weight: bold;
-    padding-bottom: 10px;
+  font-size: 1em;
+  color: #f4f4f4;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
 
 .h3-text {
-    color: #999;
-    font-weight: lighter;
-    margin: 5px;
-    font-size: 1em;
+  color: #999;
+  font-weight: lighter;
+  margin: 5px;
+  font-size: 1em;
 }
 
 .footer-icons {
-    height: 30px;
+  height: 30px;
 }
 
 .footer-bottom {
-    background-color: #231f20;
-    text-align: center;
+  background-color: #24201f;
+  text-align: center;
 }
 
 .footer-logo {
-    height: 65px;
+  height: 65px;
 }
 
 .privacy-policy {
-    color: #59d389;
-    font-size: 0.9em;
-    margin: 0px;
-    font-weight: lighter;
+  color: #59d389;
+  font-size: 0.9em;
+  margin: 0px;
+  font-weight: lighter;
 }
 
 .footer-name {
-    font-size: 13px;
-    color: #f4f4f4;
-
+  font-size: 13px;
+  color: #f4f4f4;
 }
 
 .social-icon {
-    font-size: 1.5em;
-    color: #59d389;
+  font-size: 1.5em;
+  color: #59d389;
 }

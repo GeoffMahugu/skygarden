@@ -98,7 +98,7 @@
             </div>
             <div fxFlex="20" fxFlex.lt-sm="100%" *ngFor="let deal of deals">
                 <div fxLayout="column" fxLayoutAlign="center" fxLayoutWrap class="deal-item">
-                    <div fxFlex="100"><img src="{{deal.image}}" alt="{{deal.name}}" class="category-image"></div>
+                    <div fxFlex="100"><img src="{{deal.image}}" alt="{{deal.name}}" class=""></div>
                     <div fxFlex="100" class="category-item-footer">
                         <div fxLayout="column" fxLayoutAlign="flex-start" fxLayoutWrap>
                             <div fxFlex="100">
@@ -152,12 +152,12 @@
             </div>
         </div>
 
-        <div fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="15px" fxLayoutAlign=”flex-start” class="testimonials-container ">
+        <div fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="15px" fxLayoutAlign=”center” class="testimonials-container">
             <ng-container *ngFor="let item of testimonials">
-                <div fxFlex="1" fxHide.sm fxHide.xs>&nbsp;</div>
-                <div fxFlex="0 1 30%" fxFlex.lt-sm="100%">
-                    <div fxLayout="column" fxLayoutAlign="center" fxLayoutWrap class="category-item">
-                        <div fxFlex="100"><img src="{{item.image}}" alt="{{item.title}}" class="category-image"></div>
+                <div fxFlex="5" fxHide.sm fxHide.xs>&nbsp;</div>
+                <div fxFlex="0 1 326px" fxFlex.lt-sm="100%">
+                    <div fxLayout="column" fxLayoutAlign="center" fxLayoutWrap class="testimony-item">
+                        <div fxFlex="100"><img src="{{item.image}}" alt="{{item.title}}" class="testimony-image"></div>
                         <div fxFlex="100" class="testimonial-footer">
                             <div fxLayout="column" fxLayoutAlign="flex-start" fxLayoutWrap>
                                 <div fxFlex="100" class="ratings-container">
@@ -188,20 +188,14 @@
             </ng-container>
         </div>
 
-        <div fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="center" fxLayoutWrap>
-            <div fxFlex="40" fxFlex.lt-sm="100%" class="section-2-item">
-                <img class="section-2-image" src="../../../assets/images/section_5/curious.png" alt="birthday">
+        <div fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="center" fxLayoutWrap class="section-5-container">
+            <div fxFlex="50" fxFlex.lt-sm="100%" class="section-5-item">
+                <img class="section-5-image" src="../../../assets/images/section_5/curious.png" alt="birthday">
             </div>
-            <div fxFlex="5" fxHide.sm fxHide.xs>&nbsp;</div>
-            <div fxFlex="40" fxFlex.lt-sm="100%" class="section-2-item">
-                <img class="section-2-image" src="../../../assets/images/section_5/ready.png" alt="vacation">
+            <div fxFlex="50" fxFlex.lt-sm="100%" class="section-5-item">
+                <img class="section-5-image" src="../../../assets/images/section_5/ready.png" alt="vacation">
             </div>
-            <div fxFlex="5" fxHide.sm fxHide.xs>&nbsp;</div>
         </div>
-
-
-
     </div>
-
 </div>
 <app-footer></app-footer>
