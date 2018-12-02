@@ -16,15 +16,15 @@
     <div fxFlex="100" class="top-banner-caption">
         <div fxLayout="row" fxLayoutAlign="flex-start" fxLayoutWrap>
             <div fxFlex="10" fxHide.sm fxHide.sm>&nbsp;</div>
-            <div fxFlex="95" fxFlex.sm="100" fxFlex.xs="100">
+            <div fxFlex="95" fxFlex.lt-sm="100%">
                 <div fxLayout="row" fxLayoutAlign="flex-start" fxLayoutWrap>
-                    <div fxFlex="33" fxFlex.sm="50" fxFlex.xs="50" class="caption-item">
+                    <div fxFlex="33" fxFlex.lt-sm="50%" class="caption-item">
                         <div fxLayout="row" fxLayoutAlign="flex-start" fxLayoutWrap>
                             <div fxFlex='10' fxHide.sm fxHide.xs><img src="../../../assets/images/icons/deliverycar.png" alt="delivery" class="banner-caption-image"></div>
                             <div fxFlex='90' fxFlex.sm="100" fxFlex.xs="100"><span class="caption-text">Same Day Delivery on all Nairobi Orders</span></div>
                         </div>
                     </div>
-                    <div fxFlex="33" fxFlex.sm="50" fxFlex.xs="50" class="caption-item">
+                    <div fxFlex="33" fxFlex.lt-sm="50%" class="caption-item">
                         <div fxLayout="row" fxLayoutAlign="flex-start" fxLayoutWrap>
                             <div fxFlex='15' fxHide.sm fxHide.xs><img src="../../../assets/images/icons/skycash.png" alt="online payment" class="banner-caption-image"></div>
                             <div fxFlex='85' fxFlex.sm="100" fxFlex.xs="100"><span class="caption-text">Pay with MPesa Online OR Upon Delivery</span></div>
@@ -50,9 +50,9 @@
             </div>
         </div>
 
-        <div fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="40px" fxLayoutAlign="flex-start" class="section-1-categories">
+        <div fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="25px" fxLayoutAlign="flex-start" class="section-1-categories">
             <ng-container *ngFor="let cat of categories">
-                <div fxFlex="0 1 30%" fxFlex.lt-sm="100%">
+                <div fxFlex="0 1 350px" fxFlex.lt-sm="100%">
                     <div fxLayout="column" fxLayoutAlign="flex-start" fxLayoutWrap class="category-item">
                         <div fxFlex="100"><img src="{{cat.image}}" alt="{{cat.name}}" class="category-image"></div>
                         <div fxFlex="100" class="category-item-footer">
@@ -75,10 +75,9 @@
     </div>
     <div fxFlex="100" class="section-2">
         <div fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="center" fxLayoutWrap>
-            <div fxFlex="48" fxFlex.lt-sm="100%" class="section-2-item">
+            <div fxFlex="48" fxFlex.lt-sm="100%" class="section-2-item section-2-item-padding">
                 <img class="section-2-image" src="../../../assets/images/section_2/birthday.png" alt="birthday">
             </div>
-            <div fxFlex="4" fxHide.sm fxHide.xs>&nbsp;</div>
             <div fxFlex="48" fxFlex.lt-sm="100%" class="section-2-item">
                 <img class="section-2-image" src="../../../assets/images/section_2/for_vacation.png" alt="vacation">
             </div>
@@ -95,18 +94,16 @@
 
         <div fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="30px" fxLayoutAlign=”flex-start” class="deals-container">
             <div fxFlex="3" fxHide.sm fxHide.xs>
-                <button mat-icon-button class="deals-scroll-left">
-                    <i class="fas fa-angle-left"></i>
-                </button>
+                <img src="../../../assets/images/section_3/left_icon.png" class="arrow-icon arrow-icon-left" alt="Left Arrow">
             </div>
             <div fxFlex="20" fxFlex.lt-sm="100%" *ngFor="let deal of deals">
-                <div fxLayout="column" fxLayoutAlign="center" fxLayoutWrap class="category-item deal-item">
+                <div fxLayout="column" fxLayoutAlign="center" fxLayoutWrap class="deal-item">
                     <div fxFlex="100"><img src="{{deal.image}}" alt="{{deal.name}}" class="category-image"></div>
                     <div fxFlex="100" class="category-item-footer">
                         <div fxLayout="column" fxLayoutAlign="flex-start" fxLayoutWrap>
                             <div fxFlex="100">
                                 <h3 class="deal-title">{{deal.name}}</h3>
-                                <small class="category-sub-header">{{deal.sub_title}}</small>
+                                <small class="deal-sub-title">{{deal.sub_title}}</small>
                             </div>
                             <div fxFlex="100" class="deal-price-holder">
                                 <span class="deal-new-price">{{deal.new_price}}</span><span class="deal-old-price">{{deal.old_price}}</span>
@@ -120,9 +117,7 @@
                 </div>
             </div>
             <div fxFlex="2" fxHide.sm fxHide.xs>
-                <button mat-icon-button class="deals-scroll-right">
-                    <i class="fas fa-angle-right"></i>
-                </button>
+                <img src="../../../assets/images/section_3/right_icon.png" class="arrow-icon arrow-icon-right" alt="Right Arrow">
             </div>
         </div>
     </div>
@@ -131,7 +126,7 @@
             <div fxFlex='50' fxFlex.lt-sm="100%" class="section-4-about">
                 <div fxLayout="column" fxLayoutAlign="flex-start" fxLayoutWrap>
                     <div fxFlex="100">
-                        <h1>Sky.Garden makes it easy to buy from retailers all over Kenya.</h1>
+                        <h1 class="section-4-header">Sky.Garden makes it easy to buy from retailers all over Kenya.</h1>
                     </div>
                     <div fxFlex="100">
                         <h6 class="section-4-sub-title"> We are much more than just a marketplace.</h6>
@@ -144,7 +139,7 @@
                 </div>
             </div>
             <div fxFlex='50' fxFlex.lt-sm="100%">
-                <img class="section-2-image" src="../../../assets/images/section_4/section_4.png" alt=" about us">
+                <img class="section-4-image" src="../../../assets/images/section_4/section_4.png" alt=" about us">
             </div>
         </div>
     </div>

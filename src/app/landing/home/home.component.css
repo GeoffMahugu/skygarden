@@ -107,8 +107,7 @@
 }
 
 .section-1 {
-    background-color: #f4f4f4;
-    padding-bottom: 80px;
+    background-color: #F2F2F2;
     padding-top: 20px;
 }
 
@@ -130,46 +129,75 @@
 
 .section-1-header {
     text-align: center;
-    padding: 30px 15px 30px 15px;
+    padding: 30px 15px 61px 15px;
 }
 
 .section-1-categories {
-    padding-left: 30px;
+    padding: 0px 70px 0px 70px;
 }
 
 .category-item {
     background-color: #fff;
-    margin-bottom: 15px;
+    margin-bottom: 68px;
     overflow: hidden;
-}
-
-.category-image {
+    height: 350px;
     width: 100%;
 }
 
+/*
+.rectangle-copy-2 {
+	height: 350px;
+	width: 260px;
+	background-color: #FFFFFF;
+}
+*/
+
+/*
+.category-image {
+    width: 100%;
+    height: 280px;
+}
+*/
+
 .category-header {
+    color: #030303;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    text-transform: uppercase;
     margin: 0px;
-    font-size: 1.2em;
     font-weight: bold;
 }
 
+
 .category-item-footer {
     padding: 10px;
+    height: 80px;
 }
 
 .category-sub-header {
-    color: #292828;
-    font-size: 0.9em;
+    color: #030303;
+    font-family: Raleway;
+    font-size: 13px;
+    line-height: 15px;
 }
 
-.section-2,
+.section-2 {
+    padding: 79px 121px 86px 121px;
+    background-color: #fff;
+}
+
 .section-4 {
-    padding: 80px 15px 80px 15px;
+    padding: 80px 15px 40px 15px;
     background-color: #fff;
 }
 
 .section-2-item {
     cursor: pointer;
+}
+
+.section-2-item-padding {
+    padding-right: 23px;
 }
 
 .section-2-image {
@@ -178,19 +206,37 @@
 }
 
 .deals-container {
-    padding: 10px;
+    padding: 0px 20px 30px 20px;
 }
 
 .deal-item {
+    background-color: #fff;
+    margin-bottom: 68px;
+    overflow: hidden;
+    width: 100%;
+    height: 350px;
     border-radius: 3px;
     padding: 10px;
 }
 
 .deal-title {
+    color: #171717;
     margin: 0px;
-    font-size: 1em;
     text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
 }
+
+.deal-sub-title {
+    color: #777777;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+
 
 .deal-price-holder {
     padding: 10px 0px 10px 0px;
@@ -218,23 +264,18 @@
     font-weight: bold;
 }
 
-.deals-scroll-left,
-.deals-scroll-right {
-    width: 70px;
-    height: 70px;
-    flex-shrink: 0;
-    background-color: #fff;
+.arrow-icon {
+    height: 62px;
+    width: 62px;
     margin-top: 140px;
-    color: #00a096;
-    font-size: 3em;
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.09);
+    /*    box-shadow: 0 2px 4px 0 rgba(200, 200, 200, 0.5);*/
 }
 
-.deals-scroll-left {
+.arrow-icon-left {
     margin-left: 25px;
 }
 
-.deals-scroll-right {
+.arrow-icon-right {
     margin-left: -70px;
 }
 
@@ -242,10 +283,26 @@
     padding: 30px;
 }
 
+.section-4-header {
+    color: #000000;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 40px;
+    padding-top: 30px;
+}
+
 .section-4-sub-title {
-    font-size: 1em;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
     margin: 0px;
     padding-bottom: 40px;
+}
+
+.section-4-image {
+    height: 412px;
+    width: 100%
 }
 
 .testimonials-container {
