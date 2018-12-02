@@ -1,23 +1,18 @@
 {
-  "universal": {
-    "skipInstall": false,
-    "directory": ".",
-    "project": "sky.garden"
-  },
-  "serverless": {
-    "provider": "firebase",
-    "firebaseProject": "skygarden-857d6",
-    "skipInstall": false,
-    "directory": ".",
-    "project": "sky.garden",
+    "universal": {
+        "skipInstall": false,
+        "directory": ".",
+        "project": "sky.garden"
+    },
     "serverless": {
-      "aws": {},
-      "gcloud": {}
+        "provider": "firebase",
+        "firebaseProject": "skygarden-857d6",
+        "skipInstall": false,
+        "directory": ".",
+        "project": "sky.garden",
+        "serverless": {
+            "aws": {},
+            "gcloud": {}
+        }
     }
-  },
-  "pwa": {
-    "skipInstall": false,
-    "directory": ".",
-    "project": "sky.garden"
-  }
 }
