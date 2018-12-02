@@ -81,18 +81,16 @@
 }
 
 .search-input-large {
-    width: 581px;
+    width: 500px;
     height: 35px;
     padding-left: 14px;
     border-radius: 4px;
     border: 0px;
-
     background-image: url(../../../assets/images/top-nav/search.png);
     background-repeat: no-repeat;
-    background-position-x: 565px;
+    background-position-x: 480px;
     background-position-y: center;
     background-size: 21px 21px;
-
 }
 
 .search-input {

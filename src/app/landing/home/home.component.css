@@ -23,19 +23,22 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
-    height: 75vh !important;
+    height: 427px;
 }
 
 .banner-text-holder {
-    padding: 7% 0px 0px 10%;
+    padding: 69px 0px 0px 177px;
 }
 
 .banner-text {
-    font-size: 4em;
-    font-weight: bold;
-    color: #000;
-    line-height: 90%;
+    font-size: 68px;
+    font-weight: 800;
+    color: #000000;
     text-align: left;
+    line-height: 80px;
+    margin-bottom: 0px;
+    padding-bottom: 22px;
+
 }
 
 @media all and (max-width: 700px) {
@@ -84,16 +87,23 @@
     font-weight: bold;
     color: #231f20;
     padding: 20px;
+    height: 63px;
 }
 
 .caption-item {
-    border-right: 2px solid #555;
     text-align: center;
 }
 
 .banner-caption-image {
     height: 35px;
     margin-top: -10px;
+}
+
+.caption-text {
+    color: #000000;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 16px;
 }
 
 .section-1 {
@@ -104,7 +114,12 @@
 
 .section-header {
     margin: 0px;
-    font-size: 1.5em;
+    color: #0E0E0E;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29px;
+    padding-bottom: 11px;
 }
 
 .section-sub-title {
