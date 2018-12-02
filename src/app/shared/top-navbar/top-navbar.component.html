@@ -1,11 +1,11 @@
 <mat-toolbar fxFlex="fixed" class="top-navbar">
     <mat-toolbar-row>
         <span fxHide.lg fxHide.md><i class="fas fa-bars menu-icon"></i></span>
-        <span>
-            <a routerLink='/' style="text-decoration: none;" >
+        <div class="logo-group">
+            <a routerLink='/' style="text-decoration: none;">
                 <img src="../../../assets/images/logo/skylogo.png" alt="SkyGarden" class="nav-logo">
             </a>
-        </span>
+        </div>
         <span class="mat-toolbar-spacer"></span>
 
         <div class="button-row" fxHide.sm fxHide.xs>
@@ -19,10 +19,10 @@
             <input matInput placeholder="Search for products, categories and shops" type="text" name="search" class="search-input-large">
         </div>
         <div class="button-row">
-            <button routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" mat-button> <span fxHide.sm fxHide.xs class="span-text"> Log in</span>  <img src="../../../assets/images/top-nav/top-bar-user.png" alt="log in" class="top-bar-user"></button>
+            <button class="log-in-btn" routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" mat-button> <span fxHide.sm fxHide.xs class="span-text">Log in</span> <img src="../../../assets/images/top-nav/top-bar-user.png" alt="log in" class="top-bar-user"></button>
         </div>
         <div class="button-row">
-            <button routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" mat-button><span fxHide.sm fxHide.xs class="span-text">Cart</span> <img src="../../../assets/images/top-nav/top-bar-cart.png" alt="cart" class="top-bar-cart"></button>
+            <button routerLink="/" class="cart-btn" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" mat-button><span fxHide.sm fxHide.xs class="span-text">Cart</span> <img src="../../../assets/images/top-nav/top-bar-cart.png" alt="cart" class="top-bar-cart"></button>
         </div>
     </mat-toolbar-row>
     <mat-toolbar-row fxHide.lg fxHide.md>
