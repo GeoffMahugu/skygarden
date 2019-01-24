@@ -2,7 +2,7 @@
 
 This is an [Angular](https://angular.io) project that implements **SSR**(server side rendering).
 
-The project is being hosted on firebase at: [Demo](https://skygarden-857d6.firebaseapp.com/)
+The project is being hosted on firebase🔥 at: [Demo](https://skygarden-857d6.firebaseapp.com/)
 
 ![skygarden preview](https://user-images.githubusercontent.com/17265995/48970788-9178cc00-f021-11e8-9f32-1ab1ae388cc5.png)
 
@@ -15,12 +15,27 @@ The project is being hosted on firebase at: [Demo](https://skygarden-857d6.fireb
 ## Running using local machine
 
 1.  Clone the project,
-2.  Cd into the souce of the project.
-3.  Run 'npm install' : to install node packages
-4.  Run 'ng serve' : to start Angular server
-5.  Go to 'localhost:4200' : to see your project.
+```git clone https://github.com/GeoffMahugu/skygarden.git```
 
-## Deployment
+2.  Cd into the souce of the project.
+```$ cd ./sygarden```
+
+3.  Install project dependancies
+```'npm install```
+
+4.  Start Angular server
+```ng serve```
+
+5.  Go to ``localhost:4200`` : to see your project. 🏁
+
+## Deployment 🚀
 
 1.  Cd into your project folder
-2.  Run 'npm run build:prod:deploy'
+```$ cd ./skygarden```
+
+2.  Run build script and deployment script
+```npm run build:prod:deploy```
+
+Follow me on twitter [@GeoffeyMahugu](https://twitter.com/GeoffreyMahugu)
+Happy coding 😀
+
