@@ -372,3 +372,11 @@
     width: 584px;
     background-color: #FFFFFF;
 }
+
+@media only screen and (max-width: 768px){
+    .section-5-image {
+        height: auto;
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+}

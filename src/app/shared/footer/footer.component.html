@@ -1,4 +1,5 @@
-<div fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="flex-start" fxLayoutWrap class="footer" [ngStyle.sm]="{'padding':'25px'}" [ngStyle.xs]="{'padding':'25px'}">
+<div fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="flex-start" fxLayoutWrap class="footer"
+    [ngStyle.sm]="{'padding':'25px'}" [ngStyle.xs]="{'padding':'25px'}">
     <div fxFlex="25" fxFlex.sm="100" fxFlex.xs="100">
         <div fxLayout="column" fxLayoutAlign="flex-start" fxLayoutWrap>
             <div fxFlex="100">
@@ -43,7 +44,8 @@
             </div>
             <div fxFlex="100">
                 <div fxLayout="row" fxLayoutAlign="flex-start" fxLayoutWrap>
-                    <div fxFlex="20"><img src="../../../assets/images/icons/footer_van.png" alt="" class="footer-icons"></div>
+                    <div fxFlex="20"><img src="../../../assets/images/icons/footer_van.png" alt="" class="footer-icons">
+                    </div>
                     <div fxFlex="80">
                         <h3 class="h3-text">Same Day Delivery</h3>
                     </div>
@@ -51,7 +53,8 @@
             </div>
             <div fxFlex="100">
                 <div fxLayout="row" fxLayoutAlign="flex-start" fxLayoutWrap>
-                    <div fxFlex="20"><img src="../../../assets/images/icons/footer_lock.png" alt="" class="footer-icons"></div>
+                    <div fxFlex="20"><img src="../../../assets/images/icons/footer_lock.png" alt=""
+                            class="footer-icons"></div>
                     <div fxFlex="80">
                         <h3 class="h3-text">Secure payment online or on delivery</h3>
                     </div>
@@ -59,7 +62,8 @@
             </div>
             <div fxFlex="100">
                 <div fxLayout="row" fxLayoutAlign="flex-start" fxLayoutWrap>
-                    <div fxFlex="20"><img src="../../../assets/images/icons/footer_returns.png" alt="" class="footer-icons"></div>
+                    <div fxFlex="20"><img src="../../../assets/images/icons/footer_returns.png" alt=""
+                            class="footer-icons"></div>
                     <div fxFlex="80">
                         <h3 class="h3-text">Free Returns</h3>
                     </div>
@@ -94,11 +98,12 @@
     </div>
 </div>
 <div fxLayout="column" fxLayoutAlign="center center" fxLayoutWrap class="footer-bottom">
-    <div fxFlex="100"><img src="../../../assets/images/logo/skylogo_green.png" alt="" class="footer-logo" [ngStyle.sm]="{'height':'40px'}" [ngStyle.xs]="{'height':'40px'}"></div>
+    <div fxFlex="100"><img src="../../../assets/images/logo/skylogo_green.png" alt="" class="footer-logo"
+            [ngStyle.sm]="{'height':'40px'}" [ngStyle.xs]="{'height':'40px'}"></div>
     <div fxFlex="100" style="padding: 10px">
         <h3 class="privacy-policy">Privacy Policy | Terms & Conditions</h3>
     </div>
     <div fxFlex="100" style="padding-bottom: 30px;">
-        <span class="footer-name">SKY.GARDEN 2018</span>
+        <span class="footer-name">SKY.GARDEN {{currentYear | date:'y'}}</span>
     </div>
 </div>
